@@ -1,0 +1,196 @@
+html {
+    width: 1400px;
+    margin: 0 auto;
+    background: #f5f5f5
+}
+
+body {
+    margin: 0 auto;
+    width: 1400px;
+    background: rgb(248, 245, 217)
+}
+
+a {
+    text-decoration: none;
+    color: #333
+}
+
+.mainheader {
+    height: 90px;
+    text-align: center;
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+.maintitle {
+    width: 200px;
+    height: 90px;
+    line-height: 90px;
+    font-weight: normal;
+    margin-left: 100px;
+}
+
+.maintitle a {
+    font-size: 22px;
+    color: white;
+}
+
+.maintitle a:hover {
+    text-decoration: underline;
+}
+
+
+
+.gnav {
+    /*
+    position: absolute;
+    top: 0;
+    right: 0;
+*/
+    display: flex;
+    font-size: 15px;
+    margin-left: 200px
+        /*    margin-right: 120px;*/
+}
+
+.gnav-item {
+    width: 180px;
+    height: 90px;
+    line-height: 90px;
+    margin-right: 10px;
+    margin-right: 10px;
+}
+
+.gnav-item a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.gnav-item a:hover {
+    background: #fc9951;
+}
+
+
+
+.entry-title {
+
+
+    font-weight: normal;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    background: linear-gradient(to right, rgb(255, 124, 111), #ffdd4f);
+    color: white;
+    padding: 24px;
+    margin-bottom: 48px;
+}
+
+.entry-title::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -70px;
+    width: 0;
+    height: 0;
+    border: 50px solid;
+    border-color: transparent;
+    border-top: 20px solid #fc9951;
+}
+
+.info-entry {
+    display: flex;
+    text-align: center;
+    line-height: 7em;
+    margin: 0 auto;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+
+
+}
+
+.info-child {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.info {
+    background-color: #ffd7a1;
+    height: 450px;
+    margin-top: 25px;
+    width: 1000;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+
+}
+
+#footer {
+    background: #1c1c1c;
+    color: #fff;
+    /*    border-top: 8px solid #3B4552;*/
+}
+
+.footer {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 70px;
+}
+
+.footer-item a {
+    color: #ffffff;
+}
+
+.site-name {
+    font-size: 24px;
+    border-bottom: 1px solid #3B4552;
+    padding-bottom: 30px;
+}
+
+
+/*footerの詳細*/
+
+.nav-box {
+    display: flex;
+    width: 500px;
+    margin: 50px;
+    position: relative;
+}
+
+.footer-nav {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.fnav-first {
+    position: absolute;
+    left: -70px;
+    top: -20px;
+}
+
+.fnav-second {
+    position: absolute;
+    left: 150px;
+    ;
+    top: -20px;
+}
+
+.footer-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.copyright {
+    background: #1c1c1c;
+    text-align: center;
+    padding: 30px;
+}
